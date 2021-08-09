@@ -1,0 +1,68 @@
+body{
+    background-image: url(123.png);
+    background-size:cover ;
+}
+.iffect ul{
+    margin: 0;
+    padding: 0;
+
+}
+.iffect ul li{
+    background-color:#261C2C;
+    width: 300px;
+    height: 50px;
+    border: solid 1px #F5E8C7;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+
+
+}
+.iffect ul li a{
+    text-decoration: none;
+}
+.iffect ul li:hover{
+    background-color:#5C527F;
+}
+.iffect ul ul li:hover{
+    background-color: #6E85B2;
+}
+.iffect ul ul{
+    display: none;
+}
+.iffect ul li:hover>ul{
+    display: block;
+}
+.iffect ul ul ul{
+    margin-left: 300px;
+    top:0;
+    position: absolute;
+}
+.iffect ul ul li{
+    background-color:#FA8072;
+    color:#000000;
+}
+.iffect ul ul ul li{
+    background-color:#FA8072;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.col{
+    background-color: goldenrod;
+}
